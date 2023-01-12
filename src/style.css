@@ -1,0 +1,72 @@
+:root {
+  width: 1024px;
+  height: 680px;
+  font-family: sans-serif, Helvetica, Arial, Inter, Avenir;
+  font-size: 16px;
+  font-weight: 400;
+  --theme-background-classic: #39afea;
+  --theme-element-classic: #34a1d7;
+  --theme-text-classic: #d7effb;
+  --theme-background-white: #fff;
+  --theme-element-white: #ebebeb;
+  --theme-text-white: #525252;
+  --theme-background-pink-red: #ff5c8a;
+  --theme-element-pink-red: #eb547f;
+  --theme-text-pink-red: #ffdbe5;
+  --theme-background-pink: #ff7a9e;
+  --theme-element-pink: #eb7091;
+  --theme-text-pink: #f8cdd8;
+  --theme-background-purple: #717ff9;
+  --theme-element-purple: #6875e5;
+  --theme-text-purple: #c9cef6;
+  --theme-background-blue: #4791eb;
+  --theme-element-blue: #4185d8;
+  --theme-text-blue: #bcd4f1;
+  --theme-background-green: #2bb669;
+  --theme-element-green: #29af65;
+  --theme-text-green: #d4efe0;
+  --theme-background-light-green: #6acc19;
+  --theme-element-light-green: #66c418;
+  --theme-text-light-green: #b2e175;
+  --theme-background-orange: #ff8f57;
+  --theme-element-orange: #f58954;
+  --theme-text-orange: #fac4a9;
+  --theme-background-red: #ec4141;
+  --theme-element-red: #e33e3e;
+  --theme-text-red: #f7c5c5;
+  --theme-background-color: var(--theme-background-classic);
+  --theme-element-color: var(--theme-element-classic);
+  --theme-text-color: var(--theme-text-classic);
+  --theme-logo-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 1024px;
+  height: 680px;
+}
+
+/* 阿里矢量图库字体图标样式 */
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 10px;
+  max-height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CDD0D6;
+  border-radius: 10px;
+}
